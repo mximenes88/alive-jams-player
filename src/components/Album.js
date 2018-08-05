@@ -31,7 +31,7 @@ class Album extends Component {
         }
 
         setSong(song) {
-            this.audioElement.sr= song.audioSrc;
+            this.audioElement.src= song.audioSrc;
             this.setState({currentSong:song});
         }
 
