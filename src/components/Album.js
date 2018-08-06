@@ -44,6 +44,31 @@ class Album extends Component {
                 this.play();
             }
         }
+        
+            handleHoverOn(song) {
+                this.setState({hovered: song});
+            }
+            
+            handleHoverOff(song) {
+                this.setState({hovered: null});
+    
+            }
+
+            btnHandler(song, index) {
+                const playBtn = <ion-icon name="play"></ion-icon>;
+                const pauseBtn = <ion-icon name="pause"></ion-icon>;
+                const isSameSong = this.state.currentSong === song;
+                const played = this.state.currentSong;
+
+                if (this.state.isPlaying === false && this.state.hovered === song)  {
+                    return playBtn;
+                  } else if (this.state.isPlaying === true && this.state.hovered === song && isSameSong) {
+                    return pauseBtn;
+                  } else {
+                    return (index +1);
+                  }
+
+        }
 
     render(){
         return(
@@ -64,18 +89,20 @@ class Album extends Component {
                 </colgroup>
                 <tbody>
                     {this.state.album.songs.map((songs,index) =>
-                          <tr className="song" key={index} onClick={()=> this.handleSongClick(songs)}>
-                            <td className="song-number">{index+1}</td>
+                          <tr className="song" key={index} onClick={()=> this.handleSongClick(songs)}  onMouseEnter={() => this.handleHoverOn(songs)} onMouseLeave={() => this.handleHoverOff(songs)}>
+                            <td> {this.btnHandler(songs, index)} </td>
                             <td className="song-title">{songs.title}</td>
                             <td className="song-duration">{songs.duration}</td>
                           </tr>
                         )}
+
                 </tbody>
             </table>
          </section>
         );
     }
 }
+
 
 
 export default Album;

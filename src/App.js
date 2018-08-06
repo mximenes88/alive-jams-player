@@ -22,6 +22,7 @@ class App extends Component {
           <Route path="/album/:slug" component={Album} />
         </main>
       </div>
+
     );
   }
 }
