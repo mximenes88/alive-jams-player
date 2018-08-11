@@ -146,6 +146,12 @@ header h1{
   color:black;
   }
 
+  .point{
+    float:left;
+    width:33.333%;
+    margin-bottom: 25px;
+  }
+
   .hero-title{
     margin-bottom:110px;
     font-weight: 900;
