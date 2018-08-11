@@ -2,7 +2,11 @@ import React from 'react';
 
 const Landing = () => (
     <section className="landing">
+
+       <div className="web-image">
+
         <h1 className="hero-title">Turn the music up!</h1>
+     </div>
         <section className="selling-points">
             <div className="point">
                 <h2 className="point-title">Choose your music</h2>

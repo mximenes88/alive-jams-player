@@ -1,5 +1,164 @@
-body {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700,900');
+
+body{
+  padding:0;
   font-family: sans-serif;
+  background-color: #46514E;
+  margin-top:0px;
+}
+
+
+header nav{
+   margin-top:0px;
+   margin-left:800px;
+   width:fit-content;
+   }
+
+nav a {
+  margin-top:20px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-right: 4px solid #bbb;
+ }
+ 
+nav a:last-child{
+  border-right: none;
+}
+
+nav a:hover{
+  background-color:green;
+}
+
+header{
+  background:teal;
+  margin-top: 0px; 
+
+ }
+header h1{
+  color:black;
+  font-family: helvetica;
+  border: 5px solid #ffffff ;
+  padding:5px;
+  width:fit-content;
+  background-position: 2cm;
+  margin-top:-35px;
+  margin-left:10px;
+}
+
+
+
+.player-bar{
+   margin-top:60px;
+   margin-bottom: 45px;
+   margin-right: 70px;
+   float:right;
+   height:auto;
+   background-color:#93B7BE;
+   border: 4px solid grey;
+   width:45%;
+
+}
+
+#song-list{
+  margin-top:40px;
+  margin bottom: 80px;
+  margin-right:90px;
+  width:35%;
+  float:right;
+  background-color:#93B7BE;
+  border: 4px solid grey;
+  padding:0px 45px;
+  font-family:helvetica;
+  font-weight: bold;
+
+
+}
+
+.library a{
+  float:left;
+  margin: flex;
+  padding: 20px;
+
+}
+
+.library img{
+  margin-top:40px;
+  width: 80%;
+  height: auto;
+  border: 4px solid grey;
+}
+
+.library div{
+   color: white;
+   font-family:'Merriweather', serif;
+}
+
+.album{
+  color: white;
+  
+
+}
+
+.album-details{
+  float:left clear;
+  font-display: 'Merriweather', serif;
+}
+
+.album img{
+  float: left;
+  margin-left:45px;
+  margin-top:35px;
+  width:35%;
+  height:auto;
+  border: 4px solid grey;
+}
+
+.landing body{
+  background-image: url('player.jpg');
+}
+
+.landing{
+  color:white;
+  height:80%;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  text-shadow: slateblue;
+  margin-top:60px;
+  margin-right:40px;
+}
+
+.web-image {
+  background-image: url("player.jpg");
+  height: 500px;
+  width:100%;
+  background-repeat: no-repeat;
+  margin-left:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size:cover;
+  filter: grayscale(100%);
+  color:black;
+  }
+
+  .hero-title{
+    margin-bottom:110px;
+    font-weight: 900;
+  }
+
+
+.point-title{
+   color:whitesmoke;
+   font-family:'Merriweather', serif;
+}
+
+.point-description{
+  color:darkcyan;
+  font-family: 'Merriweather', serif;
+  
 }
