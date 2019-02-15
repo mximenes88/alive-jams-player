@@ -13,4 +13,4 @@ A fully-functional Music Player built with React featuring volume and playback c
 
 
 
-** Check-out the Live Version at ** https://mximenes88-alivejams.herokuapp.com/
+**Check-out the Live Version at https://mximenes88-alivejams.herokuapp.com/**
