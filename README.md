@@ -1,6 +1,6 @@
 # Alive-Jams Player  :headphones: :musical_score:
 
-<img width="400" alt="screen shot 2019-02-24 at 5 06 45 pm" src="https://user-images.githubusercontent.com/19629111/53306098-e4e3fb80-3856-11e9-85ee-7b6a035435ce.png">
+<img width="400" alt="screen shot 2019-02-24 at 5 06 45 pm" src="https://user-images.githubusercontent.com/19629111/53306098-e4e3fb80-3856-11e9-85ee-7b6a035435ce.png"> <img width="400" alt="screen shot 2019-02-24 at 5 07 16 pm" src="https://user-images.githubusercontent.com/19629111/53306090-db5a9380-3856-11e9-913c-29cdf3826c92.png">
 
 
 
