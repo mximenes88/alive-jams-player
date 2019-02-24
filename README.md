@@ -1,4 +1,4 @@
-#### Alive-Jams Player  :headphones: :musical_score:
+#Alive-Jams Player  :headphones: :musical_score:
 
 
 A fully-functional Music Player built with React featuring volume and playback control.
